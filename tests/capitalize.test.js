@@ -1,16 +1,15 @@
-import { test } from "@jest/globals";
-import capitalize from "../code /capitalize";
+const capitalize = require("../code/capitalize");
 
-xit("hello World", () => {
+test("test one", () => {
     expect(capitalize("hello")).toBe("Hello");
 });
 
-xit("capitalize Every Word", () => {
-    expect(capitalize("jukebox the ghost")).toBe(
-        "Jukebox The Ghost"
-    );
+test("test two", () => {
+    expect(capitalize("nevermind")).toBe("Nevermind");
 });
 
-xit("handle extra Spaces", () => {
-    expect(capitalize("Hey     Jude")).toBe("Hey     Jude");
+test("test three", () => {
+    expect(capitalize("jukebox The Ghost")).toBe(
+        "Jukebox The Ghost"
+    );
 });

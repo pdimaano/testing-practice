@@ -1,12 +1,7 @@
-const capitalize = (string) => {
-    let newString = string
-        .split(" ")
-        .map((word) =>
-            word[0] ? word[0].toUpperCase() + word.split("").slice(1).join("") : word
-        )
-        .join(" ");
-    return newString;
+const capitalize = (str) => {
+    if (!str.length) return;
+
+    return str[0].toUpperCase() + str.slice(1);
 };
 
-capitalize("hello                 world");
-export default capitalize;
+module.exports = capitalize;
