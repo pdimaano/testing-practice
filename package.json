@@ -1,0 +1,27 @@
+{
+  "name": "testing-practice",
+  "version": "1.0.0",
+  "description": "testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdimaano/testing-practice.git"
+  },
+  "keywords": [
+    "jest",
+    "test"
+  ],
+  "author": "pdimaano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pdimaano/testing-practice/issues"
+  },
+  "homepage": "https://github.com/pdimaano/testing-practice#readme",
+  "devDependencies": {
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
