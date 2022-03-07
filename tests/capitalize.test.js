@@ -1,14 +1,14 @@
 const capitalize = require("../code/capitalize");
 
-test("test one", () => {
+test("capitalize test one", () => {
     expect(capitalize("hello")).toBe("Hello");
 });
 
-test("test two", () => {
+test("capitalize test two", () => {
     expect(capitalize("nevermind")).toBe("Nevermind");
 });
 
-test("test three", () => {
+test("capitalize test three", () => {
     expect(capitalize("jukebox The Ghost")).toBe(
         "Jukebox The Ghost"
     );
